@@ -31,14 +31,17 @@ function App() {
             </div>
             <h1>Vite + React + Bootstrap</h1>
             <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-                </button>
+                <p className="text-primary">count is {count}</p>
                 <p>
                     Edit <code>src/App.jsx</code> and save to test HMR
                 </p>
             </div>
-            <Button variant="danger">Primary Button</Button>
+            <Button
+                variant="primary"
+                onClick={() => setCount((count) => count + 1)}
+            >
+                Button
+            </Button>
             <p className="read-the-docs">
                 Click on the Vite and React logos to learn more
             </p>
