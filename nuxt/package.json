@@ -1,0 +1,17 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@bootstrap-vue-next/nuxt": "^0.24.10",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue-next": "^0.24.10"
+  }
+}
